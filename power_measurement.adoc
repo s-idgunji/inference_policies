@@ -66,6 +66,21 @@ All rules for performance are applicable for power. In addition:
 The system used for power measurements should match the ones described
 in the platform descriptions as part of the submission.
 
+=== Platform Description for Power submission
+
+A valid submission has to  have all the fields of the platform description
+deemed mandatory to be filled by the submitter.  Power is  measured at the
+system level , and so a detailed description of the system/platform has to
+be provided as has been agreed. Failure to do so, will result in a invalid
+submission.
+
+=== SUT and Power Analyzer to remain unchanged from submission to results
+
+The SUT (system under test) and the Power Analyzer remain unchanged
+from the time of the submission until the results are published. This is to
+ensure that in case there are audits, it is easiest to replicate the results
+from an existing setup.
+
 === Changes to Loadgen
 
 Added the system timestamp indicator at the start of the performance
